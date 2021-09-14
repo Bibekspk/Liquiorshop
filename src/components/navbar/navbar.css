@@ -1,0 +1,50 @@
+.navitem {
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    margin:9px;
+    
+}
+
+.nav-item {
+    text-decoration: none;
+  
+}
+#brand{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+.nav-item:hover{
+    display: block;
+    background-color: teal;
+    border-radius:5px;
+}
+
+.navbar{
+    
+    width: 100%;
+    height: auto;
+    z-index: 30;
+    background-color: transparent;
+
+}
+
+.scrolled{
+
+position: fixed;
+top: 0px;
+left: 0px;
+width: 100%;
+background-color:rgba(27, 22, 22);
+height: auto;
+z-index: 30; 
+} 
+.scrolled .nav-item ,.scrolled #brand{
+    color: white !important;
+    /* to voerride default font color, using !important */
+}
+
+
+
+
