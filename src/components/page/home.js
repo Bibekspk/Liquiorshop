@@ -6,7 +6,7 @@ export const Home=()=> {
     return (
         <div class="main">
         <NavBar></NavBar>
-            {/* <CarosuelSilder></CarosuelSilder> */}
+            <CarosuelSilder></CarosuelSilder>
             <h1>Booze Chitwan awaits for you!</h1>
             <h1>Booze Chitwan awaits for you!</h1>
             <h1>Booze Chitwan awaits for you!</h1>
