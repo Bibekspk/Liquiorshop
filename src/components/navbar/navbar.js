@@ -27,13 +27,11 @@ export const NavBar = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             <li className="navitem"><Nav.Link active="selected" className="nav-item"  href="#features">HOME</Nav.Link></li>
-                            <li className="navitem"><Nav.Link active="selected" className="nav-item"  href="#features">ABOUT </Nav.Link></li>
+                            <li className="navitem"><Nav.Link active="selected" className="nav-item"  href="#features">PRODUCTS </Nav.Link></li>
+                            <li className="navitem"><Nav.Link active="selected" className="nav-item"  href="#features">CONTACT </Nav.Link></li>
 
                         </Nav>
-                        <Nav >
-                        <Button style={{ fontFamily: "Roboto", fontSize: "17px" }}>Locate us</Button>
-                            
-                        </Nav>
+                       
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

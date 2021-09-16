@@ -10,13 +10,13 @@ export const CarosuelSilder = () => {
         <div className="carosuel">
             <Carousel showThumbs={false} autoPlay={true} stopOnHover={true} showArrows={true} showStatus={false}>
                 <div>
-                    <img src={img2} height="550px" />
+                    <img src={img2} height="90%" />
                 </div>
                 <div>
-                    <img src={img1} height="550px" />
+                    <img src={img1} height="90%" />
                 </div>
                 <div>
-                    <img src={img2} height="550px" />
+                    <img src={img2} height="90%" />
                 </div>
             </Carousel>
         </div>

@@ -26,14 +26,15 @@ export const Home = () => {
             <div className="quote">
                 <p className="text-center "><span class="material-icons">
                     format_quote
-                </span> I USED TO THINK DRINKING WAS BAD FOR ME, SO I GAVE UP DRINKING. <span class="material-icons">
+                </span> I USED TO THINK DRINKING WAS BAD FOR ME, SO I GAVE UP THINKING. <span class="material-icons">
                         format_quote
                     </span></p>
-
+                
             </div>
             <div id="PRODUCTS">
                 <Items></Items>
             </div>
+            <p></p>
             <div>
                 <h1>Booze Chitwan awaits for you!</h1>
             </div>

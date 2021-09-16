@@ -17,7 +17,11 @@
     font-family: 'Playfair Display', serif;
     font-size: 35px;
     font-weight: 900;
+    font-style:italic;
     margin-left: 10px;
+    border-bottom: 2px solid black;
+    margin-right: 15px;
+    
 }
 
 .about {
@@ -26,3 +30,4 @@
     background-size: cover;
     
 }
+
