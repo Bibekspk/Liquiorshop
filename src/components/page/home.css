@@ -24,6 +24,10 @@
     
 }
 
+ .bottom{
+    border: 4px black;
+}
+
 .about {
     background-image: url('../images/image1.PNG');
     background-repeat: no-repeat;

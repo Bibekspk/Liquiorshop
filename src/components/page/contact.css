@@ -1,0 +1,41 @@
+.form input[type=email], input[type=text]{
+    border: none;
+    border-bottom:1px solid grey;
+    outline: none;
+    width: 100%;
+}
+
+input[type=email]:focus{
+    outline: none;
+    border-bottom: 1px solid grey;
+}
+
+input[type=email],input[type=text]::placeholder,input{
+    font-family: 'Playfair Display', serif;
+    
+}
+.btn{
+    border: 1px solid black;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17.5px;
+    font-weight: 550;
+
+}
+
+.btn:hover{
+    color: black;
+    background:#18aec8;
+}
+
+.contact p{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+
+}
+
+.contact span{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 28px;
+}

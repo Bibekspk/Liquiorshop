@@ -4,6 +4,7 @@ import { NavBar } from '../navbar/navbar'
 import { CarosuelSilder } from '../carosuel/carosuel';
 import { Items } from '../carosuel/item';
 import img1 from '../images/image2.png';
+import { Contact } from './contact';
 export const Home = () => {
     return (
         <div class="main">
@@ -33,11 +34,16 @@ export const Home = () => {
             </div>
             <div id="PRODUCTS">
                 <Items></Items>
+                <hr className="bottom"></hr>
             </div>
-            <p></p>
             <div>
-                <h1>Booze Chitwan awaits for you!</h1>
+                <h1 className="text-center">Contact Us</h1>
+                <Contact></Contact>
+                <p>Hi</p>
+                <p>Hi</p>
+                <p>Hi</p>
             </div>
+
 
         </div>
     )

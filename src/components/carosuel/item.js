@@ -24,7 +24,6 @@ export const Items = () => {
                                 <Card.Body>
                                     <Card.Title className="text-center">Ruslan Vodka</Card.Title>
                                     <Card.Text>
-
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -33,8 +32,7 @@ export const Items = () => {
                                 <Card.Body>
                                     <Card.Title className="text-center">Tuborg Gold Beer</Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                       
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -43,8 +41,7 @@ export const Items = () => {
                                 <Card.Body>
                                     <Card.Title className="text-center">Jhonnie Walker's Blue Label Whiskey 700 ML</Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -53,8 +50,7 @@ export const Items = () => {
                             <Card.Body>
                                 <Card.Title className="text-center">Old Durbar (Black Chimney)</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                   
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -69,8 +65,7 @@ export const Items = () => {
                             <Card.Body>
                                 <Card.Title className="text-center">Gurkha Premium Beer</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                  
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -88,8 +83,7 @@ export const Items = () => {
                             <Card.Body>
                                 <Card.Title className="text-center">Khukuri Rum</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -98,8 +92,7 @@ export const Items = () => {
                             <Card.Body>
                                 <Card.Title className="text-center">Glenfiddich Whiskey</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                   
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -108,8 +101,7 @@ export const Items = () => {
                             <Card.Body>
                                 <Card.Title className="text-center">Jack Daniel's Tennessee Whiskey 700 ML</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                   
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -124,8 +116,7 @@ export const Items = () => {
                             <Card.Body>
                                 <Card.Title className="text-center">Seagram's Royal Stag 750 ML</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                   
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -143,8 +134,7 @@ export const Items = () => {
                             <Card.Body>
                                 <Card.Title className="text-center">Budweiser Beer </Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                   
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -153,8 +143,7 @@ export const Items = () => {
                             <Card.Body>
                                 <Card.Title className="text-center">Jhonnie Walker Double Black 750 ML </Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                   
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -163,8 +152,7 @@ export const Items = () => {
                             <Card.Body>
                                 <Card.Title className="text-center">Corona Extra Beer Bottle</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                   
                                 </Card.Text>
                             </Card.Body>
                         </Card>
