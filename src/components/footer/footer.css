@@ -16,3 +16,13 @@
     font-size: 25px;
     color: white;
 }
+
+.footer p {
+    font-family: 'Playfair Display', serif;
+}
+
+.footer li,.footer a{
+    font-family: 'Antonio', sans-serif;
+    letter-spacing: 3px;
+    color: white;
+}

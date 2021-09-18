@@ -35,3 +35,19 @@
     
 }
 
+.info{
+    background-image: url('../images/image1.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info h1{
+    font-family: 'Antonio', sans-serif;
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+

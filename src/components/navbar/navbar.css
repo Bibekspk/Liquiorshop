@@ -22,11 +22,11 @@
 }
 
 .navbar{
-    
+    position: relative;
     width: 100%;
     height: auto;
-    z-index: 30;
-    background-color: transparent;
+    z-index: 100;
+    background-color: lavender;
 
 }
 
