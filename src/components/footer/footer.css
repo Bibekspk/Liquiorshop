@@ -1,0 +1,18 @@
+.footer ul{
+    list-style: none;
+}
+
+.footer li a {
+    text-decoration: none;
+}
+
+.footer {
+    background: linear-gradient(180deg,#090c0f,#141e28);
+    color: blanchedalmond;
+}
+
+.fab{
+    margin-right: 17px;
+    font-size: 25px;
+    color: white;
+}

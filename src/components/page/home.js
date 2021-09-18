@@ -5,6 +5,7 @@ import { CarosuelSilder } from '../carosuel/carosuel';
 import { Items } from '../carosuel/item';
 import img1 from '../images/image2.png';
 import { Contact } from './contact';
+import { Footer } from '../footer/footer';
 export const Home = () => {
     return (
         <div class="main">
@@ -39,9 +40,7 @@ export const Home = () => {
             <div>
                 <h1 className="text-center">Contact Us</h1>
                 <Contact></Contact>
-                <p>Hi</p>
-                <p>Hi</p>
-                <p>Hi</p>
+                <Footer></Footer>
             </div>
 
 
