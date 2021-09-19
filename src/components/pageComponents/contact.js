@@ -6,11 +6,27 @@ export class Contact extends Component {
         super(props)
 
         this.state = {
-            email: ""
+            email: "",
+            name: "",
+            message: ""
         }
     }
 
+    handleSubmit = () => {
+
+    }
+
+    handleChnage = (e) => {
+        let { name, value } = e.target;
+        this.setState((prevState) => ({
+            ...prevState,
+            [name]: value
+        }))
+    }
+
     render() {
+        console.log(this.state);
+
         return (
             <div className="contact mx-1">
                 <div className="row">
@@ -25,15 +41,16 @@ export class Contact extends Component {
                         <i style={{ fontSize: "25px", backgroundColor: "white" }} class="far fa-clock"></i><span> Delivery Time</span>
                         <span><p>24 Hours Delivery</p></span>
                     </div>
-                    <form className="form col-md-6 mt-3 ">
-                        <input type="text" placeholder="Name" required></input><br /><br />
-                        <input className="email" name="email" type="email" placeholder="Email Address" required></input><br /><br />
-                        <input type="text" placeholder="Write Review of our service" required></input>
+                    <form className="form col-md-6 mt-3" onSubmit={this.handleSubmit}>
+                        <input type="text" name="name" placeholder="Name" onChange={this.handleChnage} required></input><br /><br />
+                        <input className="email" name="email" type="email" onChange={this.handleChnage} placeholder="Email Address" required></input><br /><br />
+                        <input type="text" name="message" placeholder="Write Review of our service" onChange={this.handleChnage} required></input>
                         <br />
                         <br />
-                            <button type="submit" className="btn btn-success text-center">Send a Review</button>
+                        <button type="submit" className="btn btn-success text-center">Send a Review</button>
                     </form>
                     <div className="col-md-1"></div>
+
 
                 </div>
             </div>

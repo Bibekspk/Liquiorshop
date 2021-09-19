@@ -10,18 +10,25 @@ export const CarosuelSilder = () => {
         <div className="carosuel">
             <Carousel showThumbs={false} autoPlay={true} stopOnHover={true} showArrows={true} showStatus={false}>
                 <div className="row">
-                    <img src={img2} height="90%" />
-                    <h1 className=" col-md-2 text  mt-5 pl-3">POP UP HAPPINESS</h1>
+                    <img src={img2} height="550px" />
+                    <div className="text col-md-2">
+                        <h1 className="mt-5">POP UP HAPPINESS</h1>
+                        <button style={{fontSize:"22px",margin:"0px 10px"}} className="btn btn-primary">CONTACT US</button>
+                    </div>
                 </div>
                 <div>
-                    <img src={img1} height="90%" />
-                    <h1 className=" col-md-2 text mt-5 pl-3">POP UP HAPPINESS</h1>
-
+                    <img src={img1} height="550px" />
+                    <div className="text col-md-2">
+                        <h1 className="mt-5">POP UP HAPPINESS</h1>
+                        <button style={{fontSize:"22px",margin:"0px 10px"}} className="btn btn-primary">CONTACT US</button>
+                    </div>
                 </div>
                 <div>
-                    <img src={img2} height="90%" />
-                    <h1 className=" col-md-2 text mt-5 pl-3">POP UP HAPPINESS</h1>
-
+                    <img src={img2} height="550px" />
+                    <div className="text col-md-2">
+                        <h1 className="mt-5">POP UP HAPPINESS</h1>
+                        <button style={{fontSize:"22px",margin:"0px 10px"}} className="btn btn-primary">CONTACT US</button>
+                    </div>
                 </div>
             </Carousel>
         </div>
