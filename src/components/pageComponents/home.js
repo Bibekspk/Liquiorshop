@@ -46,7 +46,7 @@ export const Home = () => {
             <div id="CONTACT">
                 <h1 className="text-center">Contact Us</h1>
                 <Contact></Contact>
-
+            <br></br>
             </div>
             <div>
                 <Footer></Footer>

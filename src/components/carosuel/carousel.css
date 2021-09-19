@@ -13,3 +13,12 @@
     font-size: 89px;
 
 }
+
+.carousel a{
+    text-decoration: none;
+    color: white;
+}
+
+.carousel a:hover{
+    color: black;
+}

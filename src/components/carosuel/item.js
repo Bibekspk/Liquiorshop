@@ -168,7 +168,6 @@ export const Items = () => {
                         format_quote
                     </span></p>
             </div>
-
         </div>
     )
 }

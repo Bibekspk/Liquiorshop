@@ -9,25 +9,36 @@ export const CarosuelSilder = () => {
     return (
         <div className="carosuel">
             <Carousel showThumbs={false} autoPlay={true} stopOnHover={true} showArrows={true} showStatus={false}>
-                <div className="row">
+                <div >
                     <img src={img2} height="550px" />
-                    <div className="text col-md-2">
-                        <h1 className="mt-5">POP UP HAPPINESS</h1>
-                        <button style={{fontSize:"22px",margin:"0px 10px"}} className="btn btn-primary">CONTACT US</button>
+                    <div className="text row">
+                        <div className="col-md-1"></div>
+                        <div className="col-md-4">
+                            <h1 className="mt-5">POP UP HAPPINESS</h1>
+                            <button  style={{ fontSize: "22px",width:"auto" }} className="btn btn-primary"><a href="#CONTACT">CONTACT US</a> </button>
+
+                        </div>
                     </div>
                 </div>
                 <div>
                     <img src={img1} height="550px" />
-                    <div className="text col-md-2">
-                        <h1 className="mt-5">POP UP HAPPINESS</h1>
-                        <button style={{fontSize:"22px",margin:"0px 10px"}} className="btn btn-primary">CONTACT US</button>
+                    <div className="text row">
+                        <div className="col-md-1"></div>
+                        <div className="col-md-4">
+                            <h1 className="mt-5">POP UP HAPPINESS</h1>
+                            <button  style={{ fontSize: "22px",width:"auto" }} className="btn btn-primary"><a href="#CONTACT">CONTACT US</a> </button>
+                        </div>
                     </div>
                 </div>
                 <div>
                     <img src={img2} height="550px" />
-                    <div className="text col-md-2">
-                        <h1 className="mt-5">POP UP HAPPINESS</h1>
-                        <button style={{fontSize:"22px",margin:"0px 10px"}} className="btn btn-primary">CONTACT US</button>
+                    <div className="text row">
+                        <div className="col-md-1"></div>
+                        <div className="col-md-4">
+                            <h1 className="mt-5">POP UP HAPPINESS</h1>
+                            <button  style={{ fontSize: "22px",width:"auto" }} className="btn btn-primary"><a href="#CONTACT">CONTACT US</a> </button>
+
+                        </div>
                     </div>
                 </div>
             </Carousel>
