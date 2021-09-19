@@ -12,7 +12,7 @@ export class Contact extends Component {
 
     render() {
         return (
-            <div className="contact">
+            <div className="contact mx-1">
                 <div className="row">
                     <div className="col-md-5 text-center">
                         <p>We are open for delivery.</p>
@@ -25,13 +25,13 @@ export class Contact extends Component {
                         <i style={{ fontSize: "25px", backgroundColor: "white" }} class="far fa-clock"></i><span> Delivery Time</span>
                         <span><p>24 Hours Delivery</p></span>
                     </div>
-                    <form className="form col-md-6 mt-3 mx-2">
+                    <form className="form col-md-6 mt-3 ">
                         <input type="text" placeholder="Name" required></input><br /><br />
                         <input className="email" name="email" type="email" placeholder="Email Address" required></input><br /><br />
                         <input type="text" placeholder="Write Review of our service" required></input>
                         <br />
                         <br />
-                            <button type="submit" className="btn btn-success text-center ">Send a Review</button>
+                            <button type="submit" className="btn btn-success text-center">Send a Review</button>
                     </form>
                     <div className="col-md-1"></div>
 
