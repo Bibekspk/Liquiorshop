@@ -9,52 +9,52 @@ export const Items = () => {
             <Carousel >
                 <Carousel.Item  >
                     <CardColumns className="row mt-5" >
-                            <div className="col-md-1"></div>
-                            <Card className="col-md-2 mb-1 ">
-                                <Card.Img className="mt-2" variant="top" height="210px" src="https://i2.wp.com/liquorhaus-sg.com/wp-content/uploads/2020/06/chivas-regal-18-year-gold-signature-whisky-70cl-1.png?fit=1000%2C1000&ssl=1" width="20px" />
-                                <Card.Body>
-                                    <Card.Title className="text-center">Chivas Regal</Card.Title>
-                                    <Card.Text>
-                                        
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                            <Card className="col-md-2 mb-1">
-                                <Card.Img className="mt-2" variant="top" height="210px" src="http://liquornepal.com/wp-content/uploads/2021/07/RUSLAN-VODKA-750-ML-5f9e1977b0a70.jpg" width="20px" />
-                                <Card.Body>
-                                    <Card.Title className="text-center">Ruslan Vodka</Card.Title>
-                                    <Card.Text>
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                            <Card className="col-md-2  mb-1">
-                                <Card.Img className="mt-2" variant="top" height="210px" src="https://www.himalmart.com/public/upload/product/extra/tuborg-beer-bottle-330ml-60e57c7e918fd.jpg" width="20px" />
-                                <Card.Body>
-                                    <Card.Title className="text-center">Tuborg Gold Beer</Card.Title>
-                                    <Card.Text>
-                                       
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                            <Card className="col-md-2  mb-1">
-                                <Card.Img className="mt-2" variant="top" height="210px" src="https://www.heinemann-shop.com/medias/518249-527Wx527H?context=bWFzdGVyfGltYWdlc3wxMzMyNTR8aW1hZ2UvanBlZ3xoZDAvaDVhLzk1OTE5MDc0NTA5MTAvNTE4MjQ5XzUyN1d4NTI3SHwzZWQ5ZGQ0NDEwMDRkMmU1ZThiMTQxYTlhYTU2ZDU2ZTRmYTUzMzU2YTgwMTQwOWVjZGZiNmEwMmU3NDdiMzYw&v=1620338156035" width="20px" />
-                                <Card.Body>
-                                    <Card.Title className="text-center">Jhonnie Walker's Blue Label Whiskey 700 ML</Card.Title>
-                                    <Card.Text>
-                                        
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                            <Card className="col-md-2  mb-1">
+                        <div className="col-md-1"></div>
+                        <Card className="col-md-2 mb-1 ">
+                            <Card.Img className="mt-2" variant="top" height="210px" src="https://i2.wp.com/liquorhaus-sg.com/wp-content/uploads/2020/06/chivas-regal-18-year-gold-signature-whisky-70cl-1.png?fit=1000%2C1000&ssl=1" width="20px" />
+                            <Card.Body>
+                                <Card.Title className="text-center">Chivas Regal</Card.Title>
+                                <Card.Text>
+
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="col-md-2 mb-1">
+                            <Card.Img className="mt-2" variant="top" height="210px" src="http://liquornepal.com/wp-content/uploads/2021/07/RUSLAN-VODKA-750-ML-5f9e1977b0a70.jpg" width="20px" />
+                            <Card.Body>
+                                <Card.Title className="text-center">Ruslan Vodka</Card.Title>
+                                <Card.Text>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="col-md-2  mb-1">
+                            <Card.Img className="mt-2" variant="top" height="210px" src="https://www.himalmart.com/public/upload/product/extra/tuborg-beer-bottle-330ml-60e57c7e918fd.jpg" width="20px" />
+                            <Card.Body>
+                                <Card.Title className="text-center">Tuborg Gold Beer</Card.Title>
+                                <Card.Text>
+
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="col-md-2  mb-1">
+                            <Card.Img className="mt-2" variant="top" height="210px" src="https://www.heinemann-shop.com/medias/518249-527Wx527H?context=bWFzdGVyfGltYWdlc3wxMzMyNTR8aW1hZ2UvanBlZ3xoZDAvaDVhLzk1OTE5MDc0NTA5MTAvNTE4MjQ5XzUyN1d4NTI3SHwzZWQ5ZGQ0NDEwMDRkMmU1ZThiMTQxYTlhYTU2ZDU2ZTRmYTUzMzU2YTgwMTQwOWVjZGZiNmEwMmU3NDdiMzYw&v=1620338156035" width="20px" />
+                            <Card.Body>
+                                <Card.Title className="text-center">Jhonnie Walker's Blue Label Whiskey 700 ML</Card.Title>
+                                <Card.Text>
+
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="col-md-2  mb-1">
                             <Card.Img className="mt-2" variant="top" height="210px" src="https://www.gyapu.com/public/780-1024/files/E9E19FF330D5AB1-BC%20750ml%203D%20Bottles%201080px%20by%201080px.jpg" width="20px" />
                             <Card.Body>
                                 <Card.Title className="text-center">Old Durbar (Black Chimney)</Card.Title>
                                 <Card.Text>
-                                   
+
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                            <div className="col-md-1"></div>
+                        <div className="col-md-1"></div>
                     </CardColumns>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -65,7 +65,7 @@ export const Items = () => {
                             <Card.Body>
                                 <Card.Title className="text-center">Gurkha Premium Beer</Card.Title>
                                 <Card.Text>
-                                  
+
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -83,16 +83,16 @@ export const Items = () => {
                             <Card.Body>
                                 <Card.Title className="text-center">Khukuri Rum</Card.Title>
                                 <Card.Text>
-                                    
+
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                         <Card className="col-md-2  mb-1">
-                            <Card.Img className="mt-2" variant="top" height="210px"  src="https://myliquorhub.com/wp-content/uploads/2019/11/Glenfiddich-18years-2.jpg" width="20px" />
+                            <Card.Img className="mt-2" variant="top" height="210px" src="https://myliquorhub.com/wp-content/uploads/2019/11/Glenfiddich-18years-2.jpg" width="20px" />
                             <Card.Body>
                                 <Card.Title className="text-center">Glenfiddich Whiskey</Card.Title>
                                 <Card.Text>
-                                   
+
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -101,7 +101,7 @@ export const Items = () => {
                             <Card.Body>
                                 <Card.Title className="text-center">Jack Daniel's Tennessee Whiskey 700 ML</Card.Title>
                                 <Card.Text>
-                                   
+
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -116,7 +116,7 @@ export const Items = () => {
                             <Card.Body>
                                 <Card.Title className="text-center">Seagram's Royal Stag 750 ML</Card.Title>
                                 <Card.Text>
-                                   
+
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -134,16 +134,16 @@ export const Items = () => {
                             <Card.Body>
                                 <Card.Title className="text-center">Budweiser Beer </Card.Title>
                                 <Card.Text>
-                                   
+
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                         <Card className="col-md-2  mb-1">
-                            <Card.Img className="mt-2" variant="top" height="210px"  src="https://www.himalmart.com/public/upload/product/extra/JOHNNINE-WALKER-DOUBLE-BLACK-1-LTR-5fc3312751dfa.jpg" width="20px" />
+                            <Card.Img className="mt-2" variant="top" height="210px" src="https://www.himalmart.com/public/upload/product/extra/JOHNNINE-WALKER-DOUBLE-BLACK-1-LTR-5fc3312751dfa.jpg" width="20px" />
                             <Card.Body>
                                 <Card.Title className="text-center">Jhonnie Walker Double Black 750 ML </Card.Title>
                                 <Card.Text>
-                                   
+
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -152,7 +152,7 @@ export const Items = () => {
                             <Card.Body>
                                 <Card.Title className="text-center">Corona Extra Beer Bottle</Card.Title>
                                 <Card.Text>
-                                   
+
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -160,6 +160,14 @@ export const Items = () => {
                     </CardColumns>
                 </Carousel.Item>
             </Carousel>
+            <br/>
+            <div className="quote">
+                <p className="text-center "><span class="material-icons">
+                    format_quote
+                </span> YOU DRINK, WE DELIVER <span class="material-icons">
+                        format_quote
+                    </span></p>
+            </div>
 
         </div>
     )

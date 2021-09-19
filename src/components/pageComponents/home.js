@@ -12,10 +12,10 @@ export const Home = () => {
         <div class="main">
             <TopNavBar></TopNavBar>
             <NavBar></NavBar>
-            <div className="info text-center">
+            {/* <div className="info text-center">
                 <h1>BOOZE CHITWAN : " <em>POP UP THE HAPPINESS</em> "</h1>
                 <h1>24 HOURS DELIVERY SERIVCE AT YOUR DOORS.</h1>
-            </div>
+            </div> */}
             <CarosuelSilder>
             </CarosuelSilder>
             <div className="about" id="HOME">
@@ -41,7 +41,7 @@ export const Home = () => {
             </div>
             <div id="PRODUCTS">
                 <Items></Items>
-                <hr className="bottom"></hr>
+              
             </div>
             <div id="CONTACT">
                 <h1 className="text-center">Contact Us</h1>

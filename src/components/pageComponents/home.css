@@ -24,9 +24,6 @@
     
 }
 
- .bottom{
-    border: 4px black;
-}
 
 .about {
     background-image: url('../images/image1.PNG');
@@ -36,9 +33,7 @@
 }
 
 .info{
-    /* background-image: url('../images/image1.PNG'); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+
     background:black;}
 
 .info h1{
