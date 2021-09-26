@@ -26,9 +26,9 @@ export const NavBar = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"  />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <li className="navitem"><Nav.Link active="selected" className="nav-item"  href="#features">HOME</Nav.Link></li>
-                            <li className="navitem"><Nav.Link active="selected" className="nav-item"  href="#features">PRODUCTS </Nav.Link></li>
-                            <li className="navitem"><Nav.Link active="selected" className="nav-item"  href="#features">CONTACT </Nav.Link></li>
+                            <li className="navitem"><Nav.Link active="selected" className="nav-item"  href="#HOME">HOME</Nav.Link></li>
+                            <li className="navitem"><Nav.Link active="selected" className="nav-item"  href="#PRODUCTS">PRODUCTS </Nav.Link></li>
+                            <li className="navitem"><Nav.Link active="selected" className="nav-item"  href="#CONTACT">CONTACT </Nav.Link></li>
 
                         </Nav>
                        
